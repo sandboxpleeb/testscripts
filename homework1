@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+#homework script 1
+#
+#change directory to your home directory.
+
+cd ~/
+
+#create a directory called 'lesson_1'
+
+mkdir lesson_1
+
+#give directory 'lesson_1' executable permissions
+
+chmod -hR 777 ~/lesson_1
+
+#open a file in directory 'lesson_1' with emacs called 'homework_1.txt'.
+
+emacs -nw ~/lesson_1/homework_1.txt | chmod 777 homework_1.txt
