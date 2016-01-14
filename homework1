@@ -9,11 +9,20 @@ cd ~/
 #create a directory called 'lesson_1'
 
 mkdir lesson_1
+echo $?
 
 #give directory 'lesson_1' executable permissions
 
-chmod -hR 777 ~/lesson_1
+chmod -R 777 ~/lesson_1
+echo $?
 
+#(create text file & save)
 #open a file in directory 'lesson_1' with emacs called 'homework_1.txt'.
 
-emacs -nw ~/lesson_1/homework_1.txt | chmod 777 homework_1.txt
+emacs -nw ~/lesson_1/homework_1.txt
+
+#save file & exit emacs
+
+"^C^S"
+echo $?
+#"^c^x"

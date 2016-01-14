@@ -1,0 +1,15 @@
+#!/bin/bash
+# truth test : if/then = 0;true
+# Tip: if you're uncertain how a certain condition might evaluate, test it in an if-test.
+
+echo
+
+echo "Testing= \"0\""
+if [ 0 ]   # zero
+then
+	echo "0 is true."
+else   #or else...
+       echo "0 is false."
+fi   # 0 is true
+
+echo
