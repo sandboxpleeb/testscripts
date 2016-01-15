@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+#homework script 1
+#
+#change directory to your home directory, create a directory called 'lesson_1' with file 'homework_1.txt' in it.
+cd ~/ && mkdir lesson_1 && touch lesson_1/homework_1.txt

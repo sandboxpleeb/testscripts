@@ -1,0 +1,12 @@
+#!/bin/bash
+# Rubout Example : Embedding Ctrl-H in a string
+
+a="^H^H"        #Two Ctl-H's -- backspaces
+echo "abcdefg"  #stdout= abcdefg
+echo
+echo -n "abcdef$a "   #abcd f
+#Space at end    ^         ^ backspaces twice.
+echo
+echo -n "abcdef$a"    #abcdef
+#No space at end
+echo; echo

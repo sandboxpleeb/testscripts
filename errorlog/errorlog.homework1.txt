@@ -1,0 +1,34 @@
+mkdir: cannot create directory ‘lesson_1’: File exists
+chmod: invalid option -- 'h'
+Try 'chmod --help' for more information.
+chmod: cannot access ‘homework_1.txt’: No such file or directory
+homework1: line 23: Ctrl^c: command not found
+homework1: line 24: Ctrl^s: command not found
+homework1: line 25: Ctrl^c: command not found
+homework1: line 26: Ctrl^x: command not found
+mkdir: cannot create directory ‘lesson_1’: File exists
+chmod: invalid option -- 'h'
+Try 'chmod --help' for more information.
+homework1: line 23: Ctrl^^c: command not found
+homework1: line 24: Ctrl^^s: command not found
+homework1: line 25: Ctrl^^c: command not found
+homework1: line 26: Ctrl^^x: command not found
+mkdir: cannot create directory ‘lesson_1’: File exists
+mkdir: cannot create directory ‘lesson_1’: File exists
+homework1: line 23: ^c^s: command not found
+homework1: line 24: ^c^x: command not found
+mkdir: cannot create directory ‘lesson_1’: File exists
+1
+mkdir: cannot create directory ‘lesson_1’: File exists
+1
+0
+mkdir: cannot create directory ‘lesson_1’: File exists
+1
+0
+homework1: line 26: ^C^S: command not found
+127
+0
+0
+0
+bash: homework1: No such file or directory
+bash: homework1: No such file or directory
