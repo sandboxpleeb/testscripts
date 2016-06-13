@@ -1,0 +1,8 @@
+#! /bin/bash
+#
+# say what to my homies.
+#
+# this command echoes anything after it, and asks for help.
+echo 'yo what up when we going?'
+echo programming is this easy.
+echo peace

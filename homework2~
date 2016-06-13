@@ -1,0 +1,24 @@
+#! /bin/bash
+#
+# homework2
+#
+# assignment: 1.) create a directory in the home directory called '.camp' if it does not exist.
+# 2.) if no files are present in the directory create one called '00_first.sh' and one called '99_last.sh'.
+# 3.) source each of the scripts in the directory in order into the current shell.
+# 4.) report that this has been done.
+#
+# change to home directory & make ~/.camp directory only if successfully changed to root and no ~/.camp exists; while that is happening, report any errors to errorlog.
+#
+# change to  ~/.camp
+#
+# create 2 files: 01_first.sh & 99_last.sh
+#
+# try lessfile if echo > doesn't work.
+# attempting to suppress error, "" by using > stdout || ./ stderr to errolog.
+#
+cd ~/ || mkdir -p .camp | mkdir -p .camp/.errorlog; cd .camp; echo 'hello 1st' &>> 01_first.sh &>> .camp || .camp/.errorlog; echo 'hello 9th' > 09_next.sh > .camp || .camp/.errorlog; echo 'hello 3rd' > 03_third.sh > .camp || .camp/.errorlog; echo 'hello last' > 99_last.sh > .camp || .camp/.errorlog
+#
+# list all-most all in column by version number descending in ~/.camp
+ls -A1v --ignore=/. #--allow=/.camp
+#
+# source scripts in directory = ~/.camp

@@ -1,0 +1,16 @@
+#! /bin/bash
+#
+# *internal script executed by bash command or called internally by another script.
+# *intended use - to be executed internally once every 24 hours in order to provide efficient redundancy & transparent record keeping.
+#
+# cleanbrarch - clean temporary directories before archiving changes of last 24hrs.
+# *do not remove temporary files if no parent file exists.
+#
+# clean temporary directories
+#
+# create compressed archive of changes from last 24hrs.
+#
+# git push daily archive file to remote repo.
+#
+# end.
+echo "remove (clean) all temporary changes with parents before archiving changes of last 24hrs."

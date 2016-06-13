@@ -1,0 +1,16 @@
+#! /bin/bash
+#
+# 'new user poll'
+# this script is an attempt to create a self-designing, self-sustaining 'polling' mechanism for new users upon system add.
+# this script is utilized internally by a automatic system call upon new user add.
+echo <upon system useradd>
+
+# change to current user's home directory (future script vs will include opening a new window session to accomodate for fault-persistency in user sessions.)
+
+cd ~/.
+# the author believes this possible by redescriging and utilizing a currently functioning mechanism - # (bangs) - for user group tagging.
+# the challenge is to teach tagging in an efficeint FAQs manner (where we initiate beginning questions;ie - a 'profile<profiling> wizard'.
+echo You\'\re invited to participate in the world\'\s most uniquely accurate polling software.
+echo This special software employs the value of your language and our common desire to use \#textual \#inflection(s).
+echo You've heard that these - \# (bangs) - were called hash(es) among social media users.
+echo This Polling Software employs them to track your \#textualinflections; otherwise, words you use to describe something \#important. 
